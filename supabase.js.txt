@@ -1,7 +1,0 @@
-const SUPABASE_URL = "https://msecdnuybhnjbniwanqb.supabase.co"
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1zZWNkbnV5YmhuamJuaXdhbnFiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE1NTQzMzgsImV4cCI6MjA4NzEzMDMzOH0.QrWaicIaulECR7dT3lGKpL4fyJBjy975jTjsMz4Vt6k"
-
-const supabase = window.supabase.createClient(
-  SUPABASE_URL,
-  SUPABASE_KEY
-)
